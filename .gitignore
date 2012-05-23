@@ -1,4 +1,11 @@
 #################
+## Ships-specific
+#################
+ships # the binary file
+*.o   # all object files
+pseudocode # one of my notes
+
+#################
 ## Kate
 #################
 
