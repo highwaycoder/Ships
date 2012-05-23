@@ -1,11 +1,14 @@
 #include <SFML/Graphics.hpp>
 #include <cstdio>
 
+#include "WaterShader.hpp"
+
 #define SPLASH_FONT "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono.ttf"
 
 int main(void)
 {
   sf::RenderWindow ships(sf::VideoMode(800,600,32),"Ships");
+  WaterShader myShader();
   
   ships.setActive();
   

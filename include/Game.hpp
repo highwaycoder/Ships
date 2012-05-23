@@ -1,6 +1,8 @@
 #ifndef GAME_HPP
 #define GAME_HPP
 
+#include "WaterShader.hpp"
+
 class Ships
 {
 private:
